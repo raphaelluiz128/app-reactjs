@@ -1,0 +1,19 @@
+.h1E {
+    /* Extra small devices (phones, less than 768px) */
+    font-size: 8px;
+  
+    /* Small devices (tablets, 768px and up) */
+    @media (min-width: 768px) {
+      font-size: 10px;
+    }
+  
+    /* Medium devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+      font-size: 14px;
+    }
+  
+    /* Large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+      font-size: 20px;
+    }
+  }

@@ -1,0 +1,182 @@
+/*
+GERAL
+*/
+/*
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  color: #4d4d4d;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+
+}
+*/
+
+#imgheader{
+  width:100%;
+
+ }
+
+
+.botao {
+  color: #f1f1f1;
+  text-decoration: none;
+  padding: 10px 30px;
+  background-color: #8f3faf;
+  font-size: 0.9em;
+  border-radius: 3px;
+}
+
+/*text-decoration :underline, overline, line-through ou blink 
+font-weight  intensidade da fonte 700=negrito
+padding espaçamento interno entre margens*/
+
+/*
+NAVEGAÇÃO
+*/
+/*  */
+
+
+
+
+
+/*
+CABEÇALHO
+*/
+
+
+
+/*
+SOBRE
+*/
+
+#sobre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px 20px;
+  background-color: #8f3faf;
+  color: orange;
+}
+
+#sobre p {
+  margin-bottom: 2.5em;
+  max-width: 1000px;
+}
+
+#sobre .botao {
+  background-color: #f1f1f1;
+  color: #4d4d4d;
+}
+
+/*
+SERVIÇOS
+*/
+
+#servicos {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#servicos div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/*
+PORTFOLIO
+*/
+
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+#portfolio h2 {
+  margin-bottom: 20px;
+}
+
+#portfolio img {
+  width: 100%;
+}
+
+/*
+CONTATO
+*/
+
+#contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+
+/*
+FOOTER
+*/
+
+
+/*
+MEDIA QUERIES
+*/
+
+@media screen and (min-width: 768px) {
+
+  /*
+  CABEÇALHO
+  */
+  
+ 
+  
+  /*
+  SOBRE
+  */
+  
+
+  #sobre {
+      height: 250px;
+      height: 25vh;
+      justify-content: center;
+      min-height: 250px;
+  }
+  
+  /*
+  SERVIÇOS
+  */
+  
+  #servicos {
+      flex-direction: row;
+      flex-wrap: wrap;
+  /* wrap quebra para uma nova linha se for maior que o espaço*/
+      align-items: flex-start;
+      max-width: 1000px;
+      margin: 0 auto;
+  }
+  
+  #servicos h2 {
+      text-align: center;
+      width: 100%;
+  }
+  
+  #servicos div {
+      flex-grow: 1;
+      flex-basis: 120px;
+      padding: 0 10px;
+  }
+  
+}
+
+
