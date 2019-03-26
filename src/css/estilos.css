@@ -68,6 +68,8 @@ SOBRE
   max-width: 1000px;
 }
 
+
+
 #sobre .botao {
   background-color: #f1f1f1;
   color: #4d4d4d;
@@ -92,6 +94,9 @@ SERVIÇOS
   margin-top: 30px;
 }
 
+#servicos #pInf{
+  font-size:8px;
+}
 /*
 PORTFOLIO
 */
